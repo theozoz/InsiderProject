@@ -1,8 +1,8 @@
-package org.commencis.commonMethods;
+package org.ozcanarpaci.commonMethods;
 
 import com.aventstack.extentreports.Status;
-import org.commencis.base.BaseDriver;
-import org.commencis.utilies.ExtentReport;
+import org.ozcanarpaci.base.BaseDriver;
+import org.ozcanarpaci.utilies.ExtentReport;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

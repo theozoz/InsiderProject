@@ -1,4 +1,4 @@
-package org.commencis.utilies;
+package org.ozcanarpaci.utilies;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;

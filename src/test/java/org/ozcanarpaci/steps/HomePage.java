@@ -1,9 +1,9 @@
-package org.commencis.steps;
+package org.ozcanarpaci.steps;
 
 import com.aventstack.extentreports.Status;
-import org.commencis.base.BaseDriver;
-import org.commencis.commonMethods.CommonMethods;
-import org.commencis.utilies.ExtentReport;
+import org.ozcanarpaci.base.BaseDriver;
+import org.ozcanarpaci.commonMethods.CommonMethods;
+import org.ozcanarpaci.utilies.ExtentReport;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;

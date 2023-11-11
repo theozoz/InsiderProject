@@ -1,7 +1,7 @@
-package org.commencis.base;
+package org.ozcanarpaci.base;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.commencis.utilies.ExtentReport;
+import org.ozcanarpaci.utilies.ExtentReport;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
