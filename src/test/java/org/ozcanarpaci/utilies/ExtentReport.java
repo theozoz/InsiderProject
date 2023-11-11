@@ -21,14 +21,14 @@ public class ExtentReport{
 
         extentReports = new ExtentReports();
         String date = new SimpleDateFormat("_hh_mm_ss_ddMMyyyy").format(new Date());
-        String dosyaYolu = "TestOutput/reports/extentReport_" + date + ".html";
+        String dosyaYolu = "TestOutput/report/extentReport_" + date + ".html";
         extentHtmlReporter = new ExtentSparkReporter(dosyaYolu);
         extentReports.attachReporter(extentHtmlReporter);
         extentReports.setSystemInfo("Name", "Test");
         extentReports.setSystemInfo("Browser", "Chrome");
         extentReports.setSystemInfo("Tester", "Özcan Arpaci");
         extentHtmlReporter.config().setDocumentTitle("Extent Report");
-        extentHtmlReporter.config().setReportName("Commencis Ödev Test Raporu");
+        extentHtmlReporter.config().setReportName("Test Raporu");
         extentTest = extentReports.createTest("Test Raporu", "Test Raporu");
     }
 

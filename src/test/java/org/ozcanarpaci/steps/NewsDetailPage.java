@@ -29,6 +29,7 @@ public class NewsDetailPage extends BaseDriver {
             Thread.sleep(2000);
             String newsTitle = methods.getElementText((newsDetailNewsTitle));
             String browserTitle = driver.getTitle();
+
             // news title and browser title
             //report example
             try {
