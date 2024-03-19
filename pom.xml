@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>Selenium-ExtendReport-Junit-Java</artifactId>
+    <artifactId>InsiderProject</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -13,7 +13,7 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <jupiter.version>5.10.0</jupiter.version>
-        <selenium.version>4.14.1</selenium.version>
+        <selenium.version>4.18.1</selenium.version>
         <bonigarcia.version>5.5.3</bonigarcia.version>
     </properties>
 
